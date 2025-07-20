@@ -4,78 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SWIFT MFI</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modern.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="sponsors.html">Sponsors</a>
-    <a href="swiftconnect.html">SWIFTConnect</a>
-    <a href="success-stories.html">Success Stories</a>
-    <a href="features.html">Features</a>
-    <a href="awards.html">Awards</a>
-    <a href="donate.html">Donate</a>
+  <nav class="nav">
+    <div class="logo">SWIFT MFI</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="swiftconnect.html">SWIFTConnect</a></li>
+      <li><a href="success-stories.html">Success Stories</a></li>
+      <li><a href="features.html">Media</a></li>
+      <li><a href="awards.html">Awards</a></li>
+      <li><a href="donate.html" class="btn">Donate</a></li>
+    </ul>
   </nav>
 
-  <header class="hero" style="background-image:url('hero_home.jpg')">
-    <h1>Welcome to SWIFT</h1>
-    <p> Sustaining Women in Financial Turmoil </p>
-    <a class="btn" href="donate.html">Donate Now</a>
-  </header>
-
-  <section id="about">
-    <h2 class="section-title">About Us</h2>
-    <p>SWIFT MFI is one of the world's largest youth operated micro‑finance institutions. Since our inception in 2019 as a student entity, we have now expanded to impact borrowers in over 77+ countries with the help of our partners! Today we are proud to say that we have lent interest‑free loans to over 3200+ women and families who often live below the world poverty line, impacting over 74,000 lives.</p>
-    <p>Learn more about our work by exploring the site or getting in touch with our team.</p>
+  <section class="hero" style="background-image:url('hero_home.jpg')">
+    <div class="hero-content">
+      <h1>Welcome to SWIFT</h1>
+      <p>Sustaining Women in Financial Turmoil</p>
+      <a href="donate.html" class="btn">Donate Now</a>
+    </div>
   </section>
 
-  <section id="what-we-do">
-    <h2 class="section-title">What We Do</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Supporting Female Entrepreneurs</h3>
-        <p>At SWIFT, we are dedicated to stepping up our efforts in ending financial inequality. Support is by no means an easy feat; we believe we can facilitate progress in this area through community empowerment.</p>
-      </div>
-      <div class="card">
-        <h3>Educating the Community</h3>
-        <p>Our goal is to promote great opportunities for those in need. With access to the right resources, people can become empowered by their own abilities and gain the confidence to fulfill their potential.</p>
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="two-column">
+        <div class="text">
+          <p>SWIFT MFI is one of the world's largest youth operated micro-finance institutions. Since our inception in 2017 we have empowered thousands of women entrepreneurs to escape poverty through micro-loans, mentorship and training.</p>
+          <p>Learn more about our work by exploring the site or getting in touch with our team.</p>
+          <a href="about.html" class="btn">Meet Our Team</a>
+        </div>
+        <div class="image">
+          <img src="hero_about.jpg" alt="About SWIFT">
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="quote">
-    <h2 class="section-title">Quote</h2>
-    <p style="font-style:italic; text-align:center; max-width:800px; margin:auto;">“Microfinance stands as one of the most promising and cost‑effective tools in the fight against global poverty.”</p>
-    <p style="text-align:center;">– Jonathan Morduch, Chair, UN Expert Group on Poverty Statistics</p>
+  <section class="what-we-do">
+    <div class="container">
+      <h2 class="section-title">What We Do</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Supporting female entrepreneurs</h3>
+          <p>We provide micro-loans to young women enabling them to start or expand small businesses. Our support gives them the confidence and capital to turn ideas into reality.</p>
+        </div>
+        <div class="card">
+          <h3>Educating the community</h3>
+          <p>Our workshops and trainings educate youth about microfinance and financial literacy. By building awareness we are creating a culture of entrepreneurship and empowerment.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="stats">
-    <div class="stats">
-      <div class="stat">
-        <h3>3200+</h3>
-        <p>Borrowers</p>
-      </div>
-      <div class="stat">
-        <h3>320,000</h3>
-        <p>Max Volume</p>
-      </div>
-      <div class="stat">
-        <h3>150+</h3>
-        <p>Events</p>
+  <section class="quote">
+    <div class="container">
+      <p>"Microfinance stands as one of the most powerful examples of the work of humanitarian organisations in the world."</p>
+      <p>– Jonathan Morduch, Chair, UN Expert Group on Poverty Statistics</p>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat">
+          <h3>3200+</h3>
+          <p>Borrowers</p>
+        </div>
+        <div class="stat">
+          <h3>$320,000+</h3>
+          <p>Max Volume</p>
+        </div>
+        <div class="stat">
+          <h3>150+</h3>
+          <p>Events</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="contact">
-    <h2 class="section-title">Get In Touch</h2>
-    <p>Email: <a href="mailto:communication@swiftmfi.org">communication@swiftmfi.org</a></p>
-    <p>Instagram: <a href="https://www.instagram.com/swiftmfi/" target="_blank">@swiftmfi</a></p>
-    <p>Phone: +91 91606 80690 | +1 (248) 832‑6567 | +968 9321 4074</p>
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <p>We're always here to answer your questions and support your journey. Reach out to us!</p>
+      <ul class="contact-info">
+        <li><strong>Email:</strong> swiftmfi@gmail.com</li>
+        <li><strong>Phone:</strong> +1 (206) 555-1234</li>
+        <li><strong>Address:</strong> Seattle, Washington, USA</li>
+      </ul>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 SWIFT MFI. All rights reserved.</p>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 SWIFT MFI. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
